@@ -166,6 +166,15 @@ Nếu vì lý do nào đó bạn không muốn dùng dữ liệu có sẵn tại
 git clone https://github.com/daohoangson/dvhcvn.git
 cd dvhcvn
 
+# cài đặt thư viện
+sudo apt update
+sudo apt -y install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php8.3
+pip install Unicode
+sudo apt install php-curl
+sudo apt install php-xml
+
 # xoá dữ liệu có sẵn
 rm -rf ./data/*
 

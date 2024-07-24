@@ -6,7 +6,7 @@ _dir=$(cd $(dirname $BASH_SOURCE[0]) && pwd)
 
 _gsoPath='data/dvhcvn.json'
 _gsoDatePath='data/date.txt'
-_gisPath='data/gis.json'
+# _gisPath='data/gis.json'
 
 # 1012/NQ-UBTVQH15
 _date=01/05/2024
